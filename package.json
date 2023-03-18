@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "jquery": "^3.6.4",
+    "tailwind": "^4.0.0"
+  },
+  "name": "xd",
+  "version": "1.0.0",
+  "description": "Primer proyecto node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -o build.css --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
